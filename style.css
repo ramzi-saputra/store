@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: end;
+}
+.card{
+    width: 16rem;
+    height: 360px;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 1px 2px rgba(160, 66, 113, 0.4);
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-color: rgb(42, 46, 104);
+}
+
+         .btn-grad {background-image: linear-gradient(to right, #003973 0%, #757532  51%, #003973  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: rgb(46, 37, 85);            
+            box-shadow: 0 0 20px #743131;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #585b85;
+            text-decoration: none;
+          }
+         
